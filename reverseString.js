@@ -1,2 +1,4 @@
-const reverseString = (string) => string.split``.reverse``.join``;
-console.log(reverseString("Shaishab")); // Output: "bahsiahS"
+const str = "Hello, World!";
+
+const reversedStr = str.split("").reverse().join("");
+console.log(reversedStr); // Output: "!dlroW ,olleH"
